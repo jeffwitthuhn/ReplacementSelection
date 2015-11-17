@@ -6,8 +6,6 @@ ReplacementSelection<obj>::ReplacementSelection(const int _size, istream& _infil
 		size=_size;
 		ascending=_sort;
 		activeLeft=true;
-		currentHeapSize=size;
-		pendingHeapSize=0;
 		leftStart=0;
 		leftEnd=0;
 		rightStart=size-1;
